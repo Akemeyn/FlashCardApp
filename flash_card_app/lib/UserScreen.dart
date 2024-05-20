@@ -171,7 +171,7 @@ class LoadingScreen extends StatefulWidget {
 
 class _LoadingScreenState extends State<LoadingScreen> {
   Future<String?> generateResponse() async {
-    final model = GenerativeModel(model: 'gemini-pro', apiKey: 'AIzaSyDS6VD-XxOcW7lbRierL_5CRF5rYMTT5ic');
+    final model = GenerativeModel(model: 'gemini-pro', apiKey: '');
     final knownWords = widget.trueWords.join(', ');
     final unknownWords = widget.falseWords.join(', ');
 
